@@ -1,0 +1,407 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif ;
+}
+
+div{
+    border: 1px solid rgb(241, 184, 77);
+}
+
+
+/* =========================================== */
+/* header start */
+/* =========================================== */
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.headermenukiri{
+    
+    margin-left: 6%;
+    font-size: 27px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.headermenukiri:hover{
+    cursor: pointer;
+}
+
+
+.headermenukanan{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+    margin-left: 20% ;
+    margin-right: 5%;
+    
+}
+
+.isimenukanan:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+/* ini drop down nav bar menu */
+
+
+.isimenukanan-pricing{
+    text-align: center;
+    
+}
+.isimenukanan-pricing:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.dropdown-pricing{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 21px;
+    
+}
+
+.dropdown-pricing a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-pricing a:hover{
+    color: rgb(63, 143, 248);
+}
+
+.isimenukanan-pricing:hover .dropdown-pricing {
+    display: block;
+}
+
+.isimenukanan-matching{
+    text-align: center;
+    
+}
+.isimenukanan-matching:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.dropdown-matching{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 21px;
+}
+
+.dropdown-matching a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-matching a:hover{
+    color: rgb(63, 143, 248);
+}
+
+.isimenukanan-matching:hover .dropdown-matching {
+    display: block;
+}
+
+.isimenukanan-omarketp{
+    text-align: center;
+    
+}
+.isimenukanan-omarketp:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.dropdown-omarketp{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 21px;
+}
+
+.dropdown-omarketp a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-omarketp a:hover{
+    color: rgb(63, 143, 248);
+}
+
+.isimenukanan-omarketp:hover .dropdown-omarketp {
+    display: block;
+}
+
+/* header end here dude */
+
+
+
+
+/* ==================== */
+/* menu atas start*/
+/* ==================== */
+
+.menuatas{
+    width: 100%;
+    margin-top: 60px;
+    height: 63px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuatas-kiri{
+    margin-left: 5%;
+    font-weight: 399;
+}
+.menuatas-kiri:hover{
+    cursor: pointer;
+}
+
+.menuatas-kanan{
+    margin-right: 6%;
+    font-weight: 400;
+}
+.menuatas-kanan:hover{
+    cursor: pointer;
+    color: rgb(170, 169, 169);
+    
+}
+.menuatas-kanan:hover .gerak{
+    transform: translate(5px,0);
+    transition: 0.3s;
+}
+.gerak{
+    /* font-size: 0.93em; */
+    font-weight: lighter;
+    -webkit-text-stroke: 1px white;
+}
+
+/* menu atas end here man */
+/* =========================================== */
+
+
+
+
+/* ============================================ */
+/* jumbotron video start here */
+/* ============================================ */
+
+.jumbotron{
+    width: 100%;
+    /* height: 800px; */
+    display: block;
+    
+}
+
+.jumbotron-video-wrapper {
+    position: absolute;
+    width: 100%;
+    
+    z-index: -5;
+}
+
+
+.jumbotron-video {
+    left: 0px; /* fixed to left. Replace it by right if you want.*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    
+}
+
+.textjumbotron{
+    position: absolute;
+    /* top: -300px; */
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 400px;
+    z-index: -2;
+
+}
+
+.textjumbotron h2{
+    /* padding-top: 20px; */
+    font-weight: 400;
+    color: white;
+}
+
+.textjumbotron h1{
+    color: white;
+    font-size: 7.1em;
+}
+
+
+.textjumbotron p{
+    
+    margin-right: 250px;
+    margin-top: 10px;
+    font-size: 21px; 
+    color: white;
+}
+
+.textjumbotron .btnjumb1{
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btnjumb1 .grak{
+    color:gray;
+    
+}
+
+.btnjumb1:hover{
+    cursor: pointer;
+
+}
+.btnjumb1:hover .grak {
+    transform: translate(10px,0);
+    transition: 0.5s;
+    color: black;
+}
+
+
+
+/* end of jumbotron video */
+/* =============================================== */
+
+/* =============================================== */
+/* Principle menu start */
+
+.principle-wrapper {
+    /* border: 2px solid purple; */
+    position: relative;
+    top: 855px;
+    /* height: 900px;
+    z-index: -3; */
+    width: 100%;
+
+}
+
+.principle-text {
+    /* border: 2px solid burlywood; */
+    margin-left: 13%;
+    margin-right: 15%;
+    /* padding-left: 170px; */
+}
+.principle-text h2 {
+    font-size: 33.6px;
+    font-weight: normal;
+}
+.principle-text h1 {
+    font-size: 4.3em;
+}
+.principle-text p {
+    margin-top: 15px;
+    margin-right: 295px;
+    font-size: 17.6px;
+}
+
+
+.principle-menu-wrapper {
+    display: flex;
+    margin-top: 47px;
+    /* justify-content: space-evenly; */
+    margin-right: 13%;
+    /* height: 237.6px; */
+    margin-left: 13% ;
+}
+
+.principle-menu {
+    /* border: 1px solid black; */
+    height: 223px;
+    width: 193.3px;
+    
+    margin-right: 34px;
+}
+
+.principle-menu-img {
+    /* border: 1px solid purple; */
+    width: 112px;
+    height: 112px;
+    margin-left: 40px;
+}
+.principle-menu-text {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 33.6px;
+    text-align: center;
+}
+.principle-menu:hover{
+    cursor: pointer;
+
+}
+.principle-menu:hover .principle-menu-text{
+    color: gray;
+}
+
+
+.principle-button-wrapper {
+    height: 97.6px;
+    margin-left: 13%;
+    margin-right: 13%;
+
+}
+.principle-button {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    height: 49.6px;
+    width: 224.3px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.principle-button:hover {
+    cursor: pointer;
+}
+.principle-button:hover > .graks {
+    transform: translate(10px,0);
+    transition: 0.3s;
+}
